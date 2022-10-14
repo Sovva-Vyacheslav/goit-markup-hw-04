@@ -581,35 +581,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-.icon-link{
-  display: flex;
-    align-items: center;
-    
-    
-}
 
-
-.item-icon{
-  
-  width: 44px;
-    height: 44px;
-    background-color: #188ce8;
-    
-}
-
-.link-instagram{
-  
-}
-.icon-instagram{
- 
-  width: 20px;
-  height: 20px;
-}
-
-.icon-facebook{
-  width: 20px;
-  height: 20px;
-}
 
 
 
