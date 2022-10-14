@@ -23,6 +23,7 @@
 :root {
   --subtitle-text-color: #757575;
   --secondary-text-color: #757575;
+  --img-overlay: rgba(47, 48, 58, 0.4);
 }
 
 ul {
@@ -202,6 +203,36 @@ body {
   color: #2196f3;
 }
 
+.envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+
+  cursor: pointer;
+
+  fill: currentColor;
+}
+
+.envelope:hover,
+.envelope:focus {
+  fill: #2196f3;
+}
+
+.smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+
+  cursor: pointer;
+
+  fill: currentColor;
+}
+
+.smartphone:hover,
+.smartphone:hover {
+  fill: #2196f3;
+}
+
 /* main content -- section 1  */
 
 /* portfolio page */
@@ -271,6 +302,13 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
+
+  background-position: center;
+  max-width: 1600px;
+  height: 600px;
+  background-image: linear-gradient(to right, rgb(47, 48, 58, 0.4), rgb(47, 48, 58, 0.4)),
+  url(../images/Img_overlay.jpg);
+  
 }
 
 .section-title {
@@ -380,6 +418,47 @@ body {
 
 /*  main section */
 
+.icon {
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+
+.icon-antenna {
+  width: 70px;
+  height: 120px;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-clock {
+  width: 70px;
+  height: 120px;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-diagram {
+  width: 70px;
+  height: 120px;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-astronavt {
+  width: 70px;
+  height: 120px;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .title {
   margin-bottom: 10px;
   font-size: 14px;
@@ -451,7 +530,7 @@ body {
 /*  section team */
 
 .command {
-  height: 368px;
+  height: 428px;
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -501,6 +580,38 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+
+.icon-link{
+  display: flex;
+    align-items: center;
+    
+    
+}
+
+
+.item-icon{
+  
+  width: 44px;
+    height: 44px;
+    background-color: #188ce8;
+    
+}
+
+.link-instagram{
+  
+}
+.icon-instagram{
+ 
+  width: 20px;
+  height: 20px;
+}
+
+.icon-facebook{
+  width: 20px;
+  height: 20px;
+}
+
+
 
 /* footer */
 
