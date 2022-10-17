@@ -574,6 +574,8 @@ body {
 }
 
 .team-position {
+  margin-bottom: 16px;
+
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -582,6 +584,29 @@ body {
 }
 
 
+.soc-icons {
+  display: flex;
+  padding: 0px 32px;
+  gap: 10px;
+}
+
+.soc-link{
+  width: 44px;
+  height: 44px;
+  background-color: orange;
+  border-radius: 50%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .soc-link:hover{
+  background-color:#2196f3;
+} */
+
+.icon-instagram{
+  
+}
 
 
 
