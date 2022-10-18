@@ -1339,7 +1339,7 @@
       "properties": {
         "order": 28,
         "id": 4,
-        "name": "facebook-1",
+        "name": "facebook",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -1398,7 +1398,7 @@
       "properties": {
         "order": 29,
         "id": 3,
-        "name": "instagram-2",
+        "name": "instagram",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -1457,7 +1457,7 @@
       "properties": {
         "order": 30,
         "id": 2,
-        "name": "linkedin-1",
+        "name": "linkedin",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -1546,7 +1546,7 @@
       "properties": {
         "order": 32,
         "id": 0,
-        "name": "twitter-1",
+        "name": "twitter",
         "prevSize": 32
       },
       "setIdx": 0,

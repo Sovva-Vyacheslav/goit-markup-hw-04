@@ -307,8 +307,7 @@ body {
   max-width: 1600px;
   height: 600px;
   background-image: linear-gradient(to right, rgb(47, 48, 58, 0.4), rgb(47, 48, 58, 0.4)),
-  url(../images/Img_overlay.jpg);
-  
+    url(../images/Img_overlay.jpg);
 }
 
 .section-title {
@@ -583,6 +582,7 @@ body {
   color: var(--secondary-text-color);
 }
 
+/* ---social icons list */
 
 .soc-icons {
   display: flex;
@@ -590,25 +590,75 @@ body {
   gap: 10px;
 }
 
-.soc-link{
+.soc-link {
   width: 44px;
   height: 44px;
-  background-color: orange;
+  background-color: #fff;
   border-radius: 50%;
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* .soc-link:hover{
-  background-color:#2196f3;
-} */
-
-.icon-instagram{
-  
+.soc-link:hover,
+.soc-link:focus {
+  background-color: #2196f3;
 }
 
+.soc-icon {
+  fill: #afb1b8;
+}
 
+.soc-icon:hover {
+  fill: #fff;
+}
+
+/* -------------------clients---------------------- */
+
+.clients {
+  background-color: #ffff;
+}
+
+.customer-section {
+  padding-top: 98px;
+  padding-bottom: 90px;
+}
+.customers {
+  margin-bottom: 50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.customers-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.icon-customer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 5%;
+  fill: #afb1b8;
+}
+
+.icon-customer:hover,
+.icon-customer:focus {
+  fill: #188ce8;
+}
 
 /* footer */
 
