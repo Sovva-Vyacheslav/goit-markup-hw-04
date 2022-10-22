@@ -290,6 +290,7 @@ body {
 .item-portfolio {
   border: 1px solid #eeeeee;
   width: calc((100% - 60px) / 3);
+  box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 .portfolio-card {
@@ -383,6 +384,7 @@ body {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+  box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 /* .btn-list {
